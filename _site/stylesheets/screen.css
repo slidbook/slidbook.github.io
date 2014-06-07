@@ -1,0 +1,280 @@
+/* --------------------------------------------------------------------
+   Imports
+-------------------------------------------------------------------- */
+/* --------------------------------------------------------------------
+   Imports
+-------------------------------------------------------------------- */
+/* line 17, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* --------------------------------------------------------------------
+   Base Styles
+-------------------------------------------------------------------- */
+/* --------------------------------------------------------------------
+   Your Styles
+-------------------------------------------------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  width: 640px;
+  background: #ffffff;
+  color: #596e76;
+  margin: 0 auto 0 auto;
+  font-weight: 200;
+
+
+}
+
+#nav {
+  float: left;
+  margin: 0 0 100px 0;
+  padding: 0;
+  list-style: none;
+  width: 640px;
+  /* margin: 0 auto 0 auto; */
+  display: block;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+#nav li {
+  float: left; 
+}
+
+#nav li a {
+  display: block;
+  padding: 15px 0 0 10px;
+  text-decoration: none;
+}
+
+#nav li a:hover {
+  text-decoration: underline;
+}
+
+#links {
+  float: right;
+ 
+}
+
+#bio {
+  clear: both;
+  margin: 0 auto 100px auto;
+  display: block;
+
+}
+
+#bio-dp {
+  float: left;
+  border-radius: 31.25em;
+  overflow: auto;
+  width: 17%;
+}
+
+#bio-words {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin-top: .2em;
+  margin-left: 5.5em;
+
+}
+
+
+#Posts {
+  margin-top: 80px;
+
+}
+
+#Posts hr {
+  margin: 60px 0 60px 0;
+}
+
+#loop {
+  margin-bottom: 100px;
+}
+
+#post_list {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-top: .2em;
+  margin-left: 0em;
+}
+
+#post_date {
+  text-transform: uppercase;
+  font-size: .95em;
+  color: #999;
+  display: inline;
+
+}
+
+.post_title {
+  margin-left: 1em;
+}
+
+#footer {
+  margin: 80px;
+  padding: 0;
+  list-style: none;
+  width: 640px;
+  display: block;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+#footer li {
+  float: left; 
+}
+
+#footer li a {
+  display: block;
+  margin-bottom: 15px;
+  padding: 15px 0 0 10px;
+  text-decoration: none;
+}
+
+#footer hr {
+  margin-top: 80px;
+}
+
+#title {
+  font-size: 2em;
+  line-height: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 1.2em;
+  padding-left: .5em;
+  border-left-color: #ff0000;
+  border-left-style: solid;
+  border-left-width: .3em;
+  text-transform: uppercase;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-size: 1.3em;
+  line-height: 1.7em;
+  margin-top: 1.5em;
+  padding-top: 0em;
+  margin-left: 0em;
+  margin-bottom: 1em;
+
+}
+
+#loop p:first-of-type {
+   display: inline;
+
+}
+
+h1 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  padding-left: .5em;
+  border-left: #dedede solid .3em;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-top: 1.5em;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+blockquote {
+/*  background-color: #dedede; */
+  display: block;
+  font-size: .8em;
+  line-height: 1.5em;
+  padding: 10px 5px 10px 20px ;
+  margin: 30px 0 30px 0;
+  border-right: #ddd solid 2px;
+  border-left: #ddd solid 2px;
+
+}
+
+a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+}
+
+hr {
+  margin-top: 40px 0;
+  border: #dedede solid 1px;
+}

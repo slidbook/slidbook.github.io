@@ -1,3 +1,8 @@
-source 'https://rubygems.org'
+source :rubygems
 
-gem 'github-pages'
+gem 'jekyll'
+gem 'rack-contrib'
+gem 'rack-rewrite'
+gem 'thin'
+gem 'compass', '>= 0.13.alpha.0'
+gem 'sass'

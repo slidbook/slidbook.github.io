@@ -1,1 +1,30 @@
-Hello World 2
+---
+layout: default
+---
+<div id="bio">
+			<img id="bio-dp" src="/img/wedding-256.jpg">
+			<div id="bio-words">
+				Mike is a co-founder at <a href="http://minitheory.com">Minitheory</a>, a web and product design company. He helps to make software easy to use.
+			</div>
+</div>
+
+<div id="Posts">
+
+	{% for post in site.posts %}
+		
+		<div id="loop">
+
+			<div id="title">
+				{{ post.title }}
+			</div>
+			<div id="post_date">{{ post.date | date: "%b %d, %Y &mdash;" }}</div> {{ post.content }}
+			<!-- <a class="post_title" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> -->
+			
+			{% include comments.html %}
+			
+		</div>
+
+	{% endfor %}
+
+</div>
+
